@@ -2,6 +2,10 @@
 Input: a List of integers as well as an integer `k` representing the size of the sliding window
 Returns: a List of integers
 '''
+#what if k is larger than len(nums)? Go with a reasonable interpretation, then follow through 
+#with it in your implementation
+#if you have the interviewer available ask them
+
 def sliding_window_max(nums, k):
     # Your code here
 
