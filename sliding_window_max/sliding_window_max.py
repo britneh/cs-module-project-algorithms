@@ -3,8 +3,9 @@ Input: a List of integers as well as an integer `k` representing the size of the
 Returns: a List of integers
 '''
 #what if k is larger than len(nums)? Go with a reasonable interpretation, then follow through 
-#with it in your implementation
-#if you have the interviewer available ask them
+#can use a queue
+# 1. max queue length == k 
+# 2. the front queue element is always going to be the max of all the queue 
 
 def sliding_window_max(nums, k):
     # Your code here
